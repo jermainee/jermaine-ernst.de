@@ -11,12 +11,21 @@ $global-spacing: 1rem;
 $global-radius: 12px;
 
 img.is-rounded {
-  border-radius: 100%;
+  border-radius: $global-radius;
+}
+
+.has-margin-top {
+  margin-top: $global-spacing;
+}
+
+.projects {
+  max-width: 860px;
+  margin: 0 auto;
 }
 
 .testimonial {
   background-color: $white;
-  padding: 3rem 1rem;
+  padding: $global-spacing*3 $global-spacing;
   border-radius: $global-radius;
   text-align: center;
 
@@ -27,6 +36,7 @@ img.is-rounded {
   }
 
   &__name {
+    margin-top: $global-spacing/2;
     font-weight: bold;
   }
 
