@@ -1,0 +1,19 @@
+{
+  "name": "jermaine-ernst.de",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "sass --watch src/scss/style.scss public/css/style.css --style compressed",
+    "build": "sass src/scss/style.scss public/css/style.css --style compressed"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jermainee/jermaine-ernst.de.git"
+  },
+  "homepage": "https://jermaine-ernst.de",
+  "dependencies": {
+    "bulma": "^0.9.4"
+  }
+}

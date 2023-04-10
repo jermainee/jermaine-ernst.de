@@ -1,0 +1,41 @@
+$primary: #008265;
+$success: $primary;
+$light: #F6F6F6;
+$grey-darker: #2E302F;
+
+// $family-primary: 'Avenir', sans-serif;
+
+@import "../../node_modules/bulma/bulma";
+
+$global-spacing: 1rem;
+$global-radius: 12px;
+
+img.is-rounded {
+  border-radius: 100%;
+}
+
+.testimonial {
+  background-color: $white;
+  padding: 3rem 1rem;
+  border-radius: $global-radius;
+  text-align: center;
+
+  &__image {
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+  }
+
+  &__name {
+    font-weight: bold;
+  }
+
+  &__profession {
+    font-size: .8rem;
+    color: $grey;
+  }
+
+  &__text {
+    margin-top: 1rem;
+  }
+}
