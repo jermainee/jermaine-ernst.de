@@ -4,12 +4,11 @@
 }
 
 body {
-    background-color: #008b8b;
+    background: url("/images/2.png");
     color: #000;
     font-family: 'Comic Sans MS', 'ComicNeue', cursive, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/90s-candy.png');
 }
 
 .container {
