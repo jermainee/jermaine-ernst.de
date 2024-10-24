@@ -8,6 +8,7 @@ body {
 }
 
 .container {
+    display: none;
     max-width: 90%;
     width: 800px;
     margin: 2rem auto;
