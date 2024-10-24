@@ -1,0 +1,78 @@
+body {
+    background-color: #00FF00;
+    color: #000;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/90s-candy.png');
+}
+
+.container {
+    max-width: 90%;
+    width: 800px;
+    margin: 2rem auto;
+    padding: 20px;
+    border: 5px solid #67a56f;
+    background-color: #FFFFFF;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #FF0000;
+    text-shadow: 2px 2px #00FFFF;
+}
+
+.projects {
+    margin-top: 20px;
+}
+
+.projects a {
+    display: block;
+    color: #0000FF;
+    text-decoration: underline;
+    max-font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.projects a:hover {
+    color: #FF0000;
+}
+
+.marquee {
+    border: 3px solid #FFFF00;
+    padding: 5px;
+    background-color: #0000FF;
+    color: #FFFF00;
+    font-weight: bold;
+    width: 90%;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+
+img {
+    margin-top: 20px;
+    width: 80%;
+    max-width: 300px;
+    height: auto;
+    border: 3px solid #00FFFF;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 6vw;
+    }
+
+    .projects a {
+        font-size: 4vw;
+    }
+
+    .marquee {
+        font-size: 4vw;
+    }
+
+    .download-button {
+        font-size: 4vw;
+        padding: 8px 16px;
+    }
+}
