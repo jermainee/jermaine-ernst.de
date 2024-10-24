@@ -1,14 +1,18 @@
+@font-face {
+    font-family: 'ComicNeue';
+    src: url('/fonts/ComicNeue-Bold.ttf') format('truetype');
+}
+
 body {
     background-color: #00FF00;
     color: #000;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Comic Sans MS', 'ComicNeue', cursive, sans-serif;
     margin: 0;
     padding: 0;
     background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/90s-candy.png');
 }
 
 .container {
-    display: none;
     max-width: 90%;
     width: 800px;
     margin: 2rem auto;
