@@ -15,14 +15,14 @@ body {
     max-width: 90%;
     width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1rem;
     text-align: center;
     box-sizing: border-box;
 }
 
 .content {
     margin-top: 2rem;
-    background-color: 	#ffd76a;
+    background-color: #ffd76a;
     border: 5px ridge #67a56f;
     box-shadow: 3px 3px 0 #27502d;
 }
@@ -33,15 +33,14 @@ h1 {
 }
 
 .projects {
-    margin-top: 20px;
+    margin-top: 2rem;
 }
 
 .projects a {
     display: block;
     color: #01027b;
     text-decoration: underline;
-    max-font-size: 20px;
-    margin-bottom: 15px;
+    margin-bottom: .75rem;
 }
 
 .projects a:hover {
@@ -55,25 +54,6 @@ h1 {
     color: #01027b;
     font-weight: bold;
     width: 90%;
-    margin: 20px auto;
+    margin: 1rem auto;
     box-sizing: border-box;
-}
-
-@media (max-width: 600px) {
-    h1 {
-        font-size: 6vw;
-    }
-
-    .projects a {
-        font-size: 4vw;
-    }
-
-    .marquee {
-        font-size: 4vw;
-    }
-
-    .download-button {
-        font-size: 4vw;
-        padding: 8px 16px;
-    }
 }
